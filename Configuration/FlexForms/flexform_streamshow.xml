@@ -1,0 +1,55 @@
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Function</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<!--
+					<switchableControllerActions>
+						<TCEforms>
+							<label>Select function</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Wall</numIndex>
+										<numIndex index="1">Wall->list</numIndex>
+									</numIndex>
+								</items>
+							</config>
+
+						</TCEforms>
+					</switchableControllerActions>
+-->
+					<settings.wallId>
+						<TCEforms>
+
+							<label>Select Wall</label>
+							<config>
+								<type>select</type>
+							    <itemsProcFunc>Bluforce\StreamchartzApi\Hooks\ItemsProcFunc->wallList</itemsProcFunc>
+							</config>
+
+						</TCEforms>
+					</settings.wallId>
+
+					<settings.viewId>
+						<TCEforms>
+
+							<label>Select View</label>
+							<config>
+								<type>select</type>
+							    <itemsProcFunc>Bluforce\StreamchartzApi\Hooks\ItemsProcFunc->outList</itemsProcFunc>
+							</config>
+
+						</TCEforms>
+					</settings.viewId>
+
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

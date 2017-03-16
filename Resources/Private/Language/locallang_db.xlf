@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-01-12T17:30:50Z" product-name="streamchartz_api">
+		<header/>
+		<body>
+			<trans-unit id="tx_streamchartzapi_domain_model_wall">
+				<source>Wall</source>
+			</trans-unit>
+			<trans-unit id="tx_streamchartzapi_domain_model_wall.wall_id">
+				<source>Wall Id</source>
+			</trans-unit>
+			<trans-unit id="tx_streamchartzapi_domain_model_wall.view_id">
+				<source>View Id</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

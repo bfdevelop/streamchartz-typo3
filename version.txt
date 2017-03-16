@@ -1,0 +1,39 @@
+2017-01-23  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0.6
+[enhance] show errors in frontend.
+
+2016-03-07  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0.5
+[new] cache implementation. to activate: you need to reinstall the plugin.
+[new] sort walls by name.
+[bugfix] when too many walls, then last page was missing.
+
+2016-03-07  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0.4
+
+[bugfix] ssl (https) not selected correctly.
+
+2016-03-07  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0.3
+
+[bugfix] typo3 7.6.x flexParentDatabaseRow in not filled.
+		https://wiki.typo3.org/TYPO3.CMS/Releases/7.6/Breaking#Breaking:_.2370132_-_FormEngine_custom_functions
+
+2016-03-07  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0.2
+
+[bugfix] typo3 6.2.x may need placeholder table.
+
+
+2016-01-25  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0.1 
+
+[bugfix] php typo3 6.2 autoloader not loading correct path.
+
+
+2016-01-18  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0 - first stable release
+
+
+2015-12-27  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	0.1 - initial beta
