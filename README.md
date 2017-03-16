@@ -1,0 +1,1 @@
+place to typo3conf/ext/streamchartz_api/
