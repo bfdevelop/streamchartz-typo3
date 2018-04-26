@@ -18,4 +18,6 @@ if (!is_array($GLOBALS['TYPO3_CONF_VARS']['SYS']['caching']['cacheConfigurations
 	$GLOBALS['TYPO3_CONF_VARS']['SYS']['caching']['cacheConfigurations']['streamchartz_mycache'] = array();
 }
 
+
 \Bluforce\StreamchartzApi\Utility\ClassLoader::registerAutoloader();
+

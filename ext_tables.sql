@@ -26,7 +26,7 @@ CREATE TABLE `tx_streamchartzapi_domain_model_wall` (
   `ttco` int(11) unsigned DEFAULT '0',
   `wall_id` varchar(255) NOT NULL DEFAULT '',
   `view_id` varchar(255) NOT NULL DEFAULT ''
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB;
 
 --
 -- Indizes der exportierten Tabellen

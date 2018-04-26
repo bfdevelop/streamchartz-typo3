@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Streamchartz',
-	'description' => 'Typo3 Plugin',
+	'description' => 'Streamchartz Plugin',
 	'category' => 'fe',
 	'author' => 'Marko Ellermaa',
 	'author_email' => 'm.ellermaa@bluforce.at',
@@ -24,7 +24,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '1.0.4c',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.0.0-7.6.99',
+			'typo3' => '6.0.0-8.7.99',
 		),
 		'conflicts' => array(
 		),

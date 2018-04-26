@@ -1,0 +1,26 @@
+{
+  "name": "bluforce/streamchartzapi",
+  "description": "Streamchartz wall",
+  "type": "typo3-cms-extension",
+  "version": "8.2.1",
+  "keywords": ["TYPO3 CMS", "Streamchartz"],
+  "homepage": "https://streamchartz.com",
+  "license": "GPL-2.0-or-later",
+  "support": {
+    "issues": "https://git.dev.streamchartz.com/marslane/streamchartz-typo3/issues"
+  },
+  "require": {
+    "typo3/cms-core": ">=6.2.0,<9.0"
+  },  
+  "autoload": {
+    "psr-4": {
+      "Bluforce\\StreamchartzApi\\": "Classes/",
+	  "Curl\\": "Vendors/php-curl-class/src/Curl"  
+    },
+	"classmap": {      
+	  "RestClient": "Vendors/php-restclient-master/restclient.php",
+	  "Curl\\Curl": "Vendors/php-curl-class/src/Curl/Curl.php",
+	  "Curl\\CaseInsensitiveArray": "Vendors/php-curl-class/src/Curl/CaseInsensitiveArray.php"
+    }
+  }
+}
