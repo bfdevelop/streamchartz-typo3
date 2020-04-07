@@ -1,3 +1,7 @@
+2020-04-07  Marko Ellermaa  <m.ellermaa@bluforce.at>
+-	1.0.8
+[update] support for typo3 9.5
+
 2017-04-26  Marko Ellermaa  <m.ellermaa@bluforce.at>
 -	1.0.7
 [update] support for typo3 8.7

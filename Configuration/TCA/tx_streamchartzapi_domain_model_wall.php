@@ -17,7 +17,7 @@ return array(
 
 		),
 		'searchFields' => 'wall_id,view_id,',
-		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('streamchartz_api') . 'Resources/Public/Icons/tx_streamchartzapi_domain_model_wall.gif'
+		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath('streamchartz_api') . 'Resources/Public/Icons/tx_streamchartzapi_domain_model_wall.gif'
 	),
 	'interface' => array(
 		'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, wall_id, view_id',
